@@ -38,7 +38,7 @@ Support(I)= (Number of transactions containing item I) / (Total number of transa
 
 ```<minConfidence>```: Minimum confidence, where 
 
-Confidence(I1 -> I2) = (Number of transactions containing I1 and I2) / (Number of transactions containing I1)
+Confidence(I1 -> I2) = (Number of transactions containing items I1 and I2) / (Number of transactions containing item I1)
 
 
 ### Dependencies
