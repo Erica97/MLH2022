@@ -1,3 +1,5 @@
+Parameters: 0.1   0.8
+
 ==Frequent itemsets (min_sup = 10.00%)
 ['Not in Poverty'] , 82.42%
 ['18 to 64 years old'] , 64.38%

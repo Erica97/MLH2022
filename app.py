@@ -1,14 +1,13 @@
 '''
 python3 main.py INTEGRATED-DATASET.csv <minSupport> <minConfidence>
 '''
-import os
+
 import pathlib
 
 from flask import Flask, request, render_template
 import sys
 import itertools
-import csv
-from io import StringIO
+
 
 app = Flask(__name__, template_folder='templates')
 PARENT_PATH = str(pathlib.Path(__file__).parent.resolve())
@@ -100,21 +99,24 @@ def generate_can(allRows, allItems, minSupp, set_count):
             new_can.append(item)
     return new_can
 
-def readCSV(csvfile):
-    csvreader = open(csvfile, encoding='utf-8')
-    for line in csvreader:
-        row = list(line.strip().rstrip(',').split(','))
-        yield row
+def readFile(fstring):
+    fstring = fstring.replace('\ufeff', '')
+    rows = fstring.split('\r\n')
+    data = []
+    for row in rows:
+        data.append(row.split(','))
+    return data[:-1]
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
     if request.method == 'POST':
         uploaded_file = request.files['myFile']
-        file_path = os.path.join(app.root_path, app.config['UPLOAD_FOLDER'], uploaded_file.filename)
-        uploaded_file.save(file_path)
-        # Read in file and get a generator using itertools
-        data = readCSV(file_path)
-            
+        #file_path = os.path.join(app.root_path, app.config['UPLOAD_FOLDER'], uploaded_file.filename)
+        #uploaded_file.save(file_path)
+        #store the file contents as a string
+        fstring = uploaded_file.read().decode("utf-8") 
+
+        data = readFile(str(fstring))
         minSupp = float(request.form.get('minSupport'))
         minConf = float(request.form.get('minConf'))
 
@@ -127,10 +129,12 @@ def index():
                 allItems.append(item)
 
         items, rules = Apriori(allRows, allItems, minSupp, minConf)
+
         # output results
+        temp = list()
 
         add1 = "\n==Frequent itemsets (min_sup = %.2f%%" % (minSupp * 100) + ")"
-        temp = list()
+
         temp.append(add1)
         for item, supp in sorted(items, key=lambda x: x[1], reverse=True):
             temp.append("\n%s , %.2f%%" % (str(item), supp * 100))
@@ -138,6 +142,7 @@ def index():
         add2 = "\n==High-confidence association rules (min_conf = %.2f%%" % (minConf * 100) + ")"
 
         temp2 = list()
+        
         temp2.append(add2)
         for rule, confidence, support in sorted(rules, key=lambda x: x[1], reverse=True):
             LHS, RHS = str([rule[0]]), str(rule[1])
