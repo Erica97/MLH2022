@@ -1,0 +1,121 @@
+==Frequent itemsets (min_sup = 10.00%)
+['Not in Poverty'] , 82.42%
+['18 to 64 years old'] , 64.38%
+['Citizen by Birth Individual ACS'] , 61.85%
+['18 to 64 years old', 'Not in Poverty'] , 54.57%
+['Citizen by Birth Individual ACS', 'Not in Poverty'] , 51.02%
+['White'] , 35.91%
+['Brooklyn'] , 35.54%
+['18 to 64 years old', 'Citizen by Birth Individual ACS'] , 35.41%
+['White', 'Not in Poverty'] , 31.61%
+['Bachelors Degree or Higher'] , 31.45%
+['Less than High School'] , 31.28%
+['Queens'] , 30.75%
+['18 to 64 years old', 'Citizen by Birth Individual ACS', 'Not in Poverty'] , 30.32%
+['Bachelors Degree or Higher', 'Not in Poverty'] , 28.63%
+['Brooklyn', 'Not in Poverty'] , 28.58%
+['Citizen by Birth Individual ACS', 'White'] , 27.45%
+['Queens', 'Not in Poverty'] , 26.95%
+['Hispanic'] , 24.47%
+['18 to 64 years old', 'Bachelors Degree or Higher'] , 24.39%
+['Citizen by Birth Individual ACS', 'White', 'Not in Poverty'] , 24.38%
+['Naturalized Citizen'] , 22.76%
+['18 to 64 years old', 'Bachelors Degree or Higher', 'Not in Poverty'] , 22.70%
+['Less than High School', 'Not in Poverty'] , 22.59%
+['18 to 64 years old', 'White'] , 22.58%
+['18 to 64 years old', 'Brooklyn'] , 22.58%
+['Brooklyn', 'Citizen by Birth Individual ACS'] , 22.37%
+['Black'] , 21.23%
+['Citizen by Birth Individual ACS', 'Bachelors Degree or Higher'] , 20.80%
+['Under 18 years old'] , 20.43%
+['18 to 64 years old', 'White', 'Not in Poverty'] , 20.32%
+['Citizen by Birth Individual ACS', 'Less than High School'] , 20.26%
+['18 to 64 years old', 'Queens'] , 20.09%
+['Naturalized Citizen', 'Not in Poverty'] , 19.53%
+['Citizen by Birth Individual ACS', 'Bachelors Degree or Higher', 'Not in Poverty'] , 19.05%
+['High School Degree'] , 18.93%
+['18 to 64 years old', 'Brooklyn', 'Not in Poverty'] , 18.87%
+['Under 18 years old', 'Citizen by Birth Individual ACS'] , 18.61%
+['Some College'] , 18.34%
+['Hispanic', 'Not in Poverty'] , 18.21%
+['Brooklyn', 'Citizen by Birth Individual ACS', 'Not in Poverty'] , 18.02%
+['18 to 64 years old', 'Queens', 'Not in Poverty'] , 17.84%
+['In Poverty'] , 17.58%
+['Black', 'Not in Poverty'] , 17.36%
+['Under 18 years old', 'Less than High School'] , 17.07%
+['18 to 64 years old', 'Citizen by Birth Individual ACS', 'White'] , 16.81%
+['Bachelors Degree or Higher', 'White'] , 16.78%
+['18 to 64 years old', 'Naturalized Citizen'] , 16.20%
+['Queens', 'Citizen by Birth Individual ACS'] , 15.96%
+['18 to 64 years old', 'Some College'] , 15.85%
+['Some College', 'Not in Poverty'] , 15.64%
+['18 to 64 years old', 'Hispanic'] , 15.64%
+['High School Degree', 'Not in Poverty'] , 15.55%
+['Bachelors Degree or Higher', 'White', 'Not in Poverty'] , 15.54%
+['Asian'] , 15.54%
+['18 to 64 years old', 'Citizen by Birth Individual ACS', 'Bachelors Degree or Higher'] , 15.41%
+['Not a Citizen'] , 15.40%
+['Under 18 years old', 'Citizen by Birth Individual ACS', 'Less than High School'] , 15.36%
+['18 to 64 years old', 'Citizen by Birth Individual ACS', 'White', 'Not in Poverty'] , 15.25%
+['Bronx'] , 15.25%
+['65+ years old'] , 15.19%
+['Brooklyn', 'White'] , 15.06%
+['Under 18 years old', 'Not in Poverty'] , 15.03%
+['Citizen by Birth Individual ACS', 'Hispanic'] , 14.59%
+['Citizen by Birth Individual ACS', 'Less than High School', 'Not in Poverty'] , 14.54%
+['18 to 64 years old', 'Citizen by Birth Individual ACS', 'Bachelors Degree or Higher', 'Not in Poverty'] , 14.51%
+['18 to 64 years old', 'High School Degree'] , 14.48%
+['18 to 64 years old', 'Naturalized Citizen', 'Not in Poverty'] , 14.24%
+['Queens', 'Citizen by Birth Individual ACS', 'Not in Poverty'] , 14.15%
+['Under 18 years old', 'Citizen by Birth Individual ACS', 'Not in Poverty'] , 13.78%
+['Citizen by Birth Individual ACS', 'Black'] , 13.70%
+['18 to 64 years old', 'Black'] , 13.60%
+['18 to 64 years old', 'Some College', 'Not in Poverty'] , 13.43%
+['Citizen by Birth Individual ACS', 'Bachelors Degree or Higher', 'White'] , 13.11%
+['18 to 64 years old', 'Bachelors Degree or Higher', 'White'] , 13.01%
+['18 to 64 years old', 'Brooklyn', 'Citizen by Birth Individual ACS'] , 12.93%
+['Asian', 'Not in Poverty'] , 12.83%
+['65+ years old', 'Not in Poverty'] , 12.81%
+['18 to 64 years old', 'Not a Citizen'] , 12.78%
+['Manhattan'] , 12.69%
+['Under 18 years old', 'Less than High School', 'Not in Poverty'] , 12.49%
+['Brooklyn', 'White', 'Not in Poverty'] , 12.41%
+['18 to 64 years old', 'Hispanic', 'Not in Poverty'] , 12.26%
+['Citizen by Birth Individual ACS', 'Bachelors Degree or Higher', 'White', 'Not in Poverty'] , 12.25%
+['18 to 64 years old', 'Bachelors Degree or Higher', 'White', 'Not in Poverty'] , 12.24%
+['Not a Citizen', 'Not in Poverty'] , 11.86%
+['18 to 64 years old', 'High School Degree', 'Not in Poverty'] , 11.77%
+['Brooklyn', 'Less than High School'] , 11.63%
+['18 to 64 years old', 'Black', 'Not in Poverty'] , 11.37%
+['Under 18 years old', 'Citizen by Birth Individual ACS', 'Less than High School', 'Not in Poverty'] , 11.31%
+['Brooklyn', 'Bachelors Degree or Higher'] , 11.20%
+['Brooklyn', 'Citizen by Birth Individual ACS', 'White'] , 11.07%
+['Less than High School', 'Hispanic'] , 10.99%
+['Bronx', 'Not in Poverty'] , 10.98%
+['Citizen by Birth Individual ACS', 'Some College'] , 10.95%
+['18 to 64 years old', 'Brooklyn', 'Citizen by Birth Individual ACS', 'Not in Poverty'] , 10.95%
+['18 to 64 years old', 'Asian'] , 10.87%
+['Citizen by Birth Individual ACS', 'In Poverty'] , 10.83%
+['Citizen by Birth Individual ACS', 'Black', 'Not in Poverty'] , 10.83%
+['Manhattan', 'Not in Poverty'] , 10.74%
+['Citizen by Birth Individual ACS', 'Hispanic', 'Not in Poverty'] , 10.63%
+['18 to 64 years old', 'Citizen by Birth Individual ACS', 'Bachelors Degree or Higher', 'White'] , 10.12%
+['Brooklyn', 'Bachelors Degree or Higher', 'Not in Poverty'] , 10.08%
+['18 to 64 years old', 'Not a Citizen', 'Not in Poverty'] , 10.02%
+
+==High-confidence association rules (min_conf = 80.00%)
+['Under 18 years old'] ==> ['Citizen by Birth Individual ACS'] (Conf: 91.08% , Supp: 18.61%)
+['Bachelors Degree or Higher'] ==> ['Not in Poverty'] (Conf: 91.04% , Supp: 28.63%)
+['White'] ==> ['Not in Poverty'] (Conf: 88.04% , Supp: 31.61%)
+['Queens'] ==> ['Not in Poverty'] (Conf: 87.66% , Supp: 26.95%)
+['Naturalized Citizen'] ==> ['Not in Poverty'] (Conf: 85.84% , Supp: 19.53%)
+['Some College'] ==> ['Not in Poverty'] (Conf: 85.26% , Supp: 15.64%)
+['18 to 64 years old'] ==> ['Not in Poverty'] (Conf: 84.76% , Supp: 54.57%)
+['Manhattan'] ==> ['Not in Poverty'] (Conf: 84.63% , Supp: 10.74%)
+['65+ years old'] ==> ['Not in Poverty'] (Conf: 84.37% , Supp: 12.81%)
+['Under 18 years old'] ==> ['Less than High School'] (Conf: 83.55% , Supp: 17.07%)
+['Asian'] ==> ['Not in Poverty'] (Conf: 82.55% , Supp: 12.83%)
+['Citizen by Birth Individual ACS'] ==> ['Not in Poverty'] (Conf: 82.49% , Supp: 51.02%)
+['High School Degree'] ==> ['Not in Poverty'] (Conf: 82.14% , Supp: 15.55%)
+['Black'] ==> ['Not in Poverty'] (Conf: 81.78% , Supp: 17.36%)
+['Brooklyn'] ==> ['Not in Poverty'] (Conf: 80.40% , Supp: 28.58%)
