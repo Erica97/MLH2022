@@ -22,9 +22,9 @@ Framework: Flask
 
 Deployed on: Heroku
 
-## How to use
+## Demo & How to use
 
-```Demo link```: 
+```Working demo link```: https://mlh2022.herokuapp.com/ 
 
 
 To use this web app, upload your preprocessed .csv file, and input 2 parameters, both in [0, 1]: ```<minSupport>```, ```<minConfidence>```.
