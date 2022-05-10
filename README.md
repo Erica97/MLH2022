@@ -1,6 +1,6 @@
 # Association Rules Extrator (Data Mining Flask Web App)
 
-This is the sample code provided for the MLH summer 2022 fellowship program.
+This is the sample code provided by Jiawen Li for the MLH summer 2022 fellowship program.
 
 
 ## Motivation: Apriori algorithm for association rule learning problems
@@ -17,7 +17,9 @@ This algorithm was introduced by Agrawal and Srikant in 1994.
 ## Tech stack
 
 Programming languages: Python, JavaScript, HTML, CSS
+
 Framework: Flask
+
 Deployed on: Heroku
 
 ## How to use
@@ -34,9 +36,9 @@ To use this web app, upload your preprocessed .csv file, and input 2 parameters,
 
 Support(I)= (Number of transactions containing item I) / (Total number of transactions)
 
-```<minConfidence>```: Minimum confidence, 
+```<minConfidence>```: Minimum confidence, where 
 
-where Confidence(I1 -> I2) = (Number of transactions containing I1 and I2) / (Number of transactions containing I1)
+Confidence(I1 -> I2) = (Number of transactions containing I1 and I2) / (Number of transactions containing I1)
 
 
 ### Dependencies
@@ -64,12 +66,11 @@ python-socketio
 Werkzeug
 
 
-## Description of the dataset used in demo
+## Data source for the test .csv file
 
 Link to dataset: https://data.cityofnewyork.us/Business/NYCgov-Poverty-Measure-Data-2014-/aqqw-n6ec
 
-The dataset is the  NYC Open Data NYCgov 2014 Poverty Measure Data File. This file contains poverty rates and related data from theNYCgov poverty measure data. For the purpose of this project we chose to focus on the following categories: 
-Borough, Citizen Status, Education Level, Ethnicity, and Poverty Status.
+The dataset is the  NYC Open Data NYCgov 2014 Poverty Measure Data File. This file contains poverty rates and related data from theNYCgov poverty measure data. For the purpose of this project we chose to focus on the following categories: Borough, Citizen Status, Education Level, Ethnicity, and Poverty Status.
 
 Extractions from this poverty dataset are compelling and meaningful. Using this data, we can see the various relationships between boroughs, ethnicity, citizenship, education, and poverty level. This may help to see the discrepancies in all these factors and poverty levels. This includes trends in level of education and ethnicity, levels of education and poverty, citizenship status and poverty, and borough and poverty levels. Given the current politics in NYC, extracting and understanding these relationships is extremely important and relevant to see discrepencies and how we need to better support marginalized groups in NYC.
 
