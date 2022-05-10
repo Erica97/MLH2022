@@ -1,6 +1,6 @@
 # Association Rules Extrator (Data Mining Flask Web App)
 
-This is the sample code provided by Jiawen Li for the MLH summer 2022 fellowship program.
+This is the sample code prepared by Jiawen Li for the MLH summer 2022 fellowship program.
 
 
 ## Motivation: Apriori algorithm for association rule learning problems
