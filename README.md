@@ -1,5 +1,7 @@
 # Association Rules Extrator (Data Mining Flask Web App)
 
+This is the sample code provided for the MLH summer 2022 fellowship program.
+
 
 ## Motivation: Apriori algorithm for association rule learning problems
 
@@ -16,17 +18,25 @@ This algorithm was introduced by Agrawal and Srikant in 1994.
 
 Programming languages: Python, JavaScript, HTML, CSS
 Framework: Flask
-Deployed on: Google Cloud Platform
+Deployed on: Heroku
 
 ## How to use
 
-Link to the demo:
+```Demo link```: 
+
+
+To use this web app, upload your preprocessed .csv file, and input 2 parameters, both in [0, 1]: ```<minSupport>```, ```<minConfidence>```.
+
 
 ### Parameter Definitions
 
-```<minSupport>``` : Minimum support, where Support(I)= (Number of transactions containing item I) / (Total number of transactions)
+```<minSupport>``` : Minimum support, where 
 
-```<minConfidence>```: Minimum confidence, where Confidence(I1 -> I2) = (Number of transactions containing I1 and I2) / (Number of transactions containing I1)
+Support(I)= (Number of transactions containing item I) / (Total number of transactions)
+
+```<minConfidence>```: Minimum confidence, 
+
+where Confidence(I1 -> I2) = (Number of transactions containing I1 and I2) / (Number of transactions containing I1)
 
 
 ### Dependencies
