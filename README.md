@@ -66,7 +66,7 @@ python-socketio
 Werkzeug
 
 
-## Data source for the test .csv file
+## Data source for the test.csv file
 
 Link to dataset: https://data.cityofnewyork.us/Business/NYCgov-Poverty-Measure-Data-2014-/aqqw-n6ec
 
