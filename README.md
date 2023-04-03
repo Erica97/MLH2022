@@ -1,4 +1,4 @@
-# Association Rules Extrator (Data Mining Flask Web App)
+# Association Rules Extractor (Data Mining Flask Web App)
 
 This is the sample code prepared by Jiawen Li for the MLH summer 2022 fellowship program.
 
