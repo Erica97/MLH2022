@@ -3,7 +3,7 @@
 This is the sample code prepared by Jiawen Li for the MLH summer 2022 fellowship program.
 
 
-## Motivation: Apriori algorithm for association rule learning problems
+## Background: Apriori algorithm for association rule learning problems
 
 Association Rule Learning is a data mining technique which allows us to get interesting insights of relationship among the items. If I have to define it in one line I can simply say,
 
